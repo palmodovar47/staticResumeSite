@@ -1,0 +1,111 @@
+/* 
+    primary: #2196f3
+    Dark: #0069c0
+    Light: #6ec6ff
+    background: white
+*/
+
+#wrapper {
+    background-color: rgb(0, 0, 0);
+}
+
+#toplayout {
+    background-image:url(slant_line_bkgd.png);
+    background-repeat:repeat;
+    box-sizing: border-box;
+    box-shadow: inset rgba(0, 0, 0, 0.20) 0px 17px 17px 0px;
+}
+
+#title {
+    text-align: center;
+    background-color: #0069c0;
+    color: white;
+}
+
+#center {
+    background-color: #6ec6ff;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 17px 17px 0px;
+}
+
+.job {
+    background-color: rgb(248, 248, 248);
+}
+
+.ref {
+    background-color: rgb(248, 248, 248);
+    display: none;
+}
+
+.skills {
+    background-color: rgb(248, 248, 248);
+    display: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+#footer {
+    background-color: #0069c0;
+    color: white;
+}
+
+#footer h4 {
+    text-decoration: underline;
+}
+
+#mycontact {
+    text-align: right;
+}
+
+.mybtn:hover {
+    color: #0069c0;
+    text-decoration: underline;
+}
+
+.mybtn:active {
+    color: #0069c0;
+    text-decoration: underline;
+}
+
+#ref {
+    text-align: right;
+}
+
+.rtarrow {
+    fill: #0069c0;
+}
+
+.lftarrow {
+    fill: #0069c0;
+}
+
+svg {
+    fill: currentColor;
+}
+
+.jobbarinactive {
+    background-color: #808e95;
+    color: white;
+}
+
+.jobbar {
+    background-color: #808e95;
+}
+
+.jobscreenshot {
+    border: 3px solid white;
+}
+
+article {
+    -webkit-box-shadow: 2px 2px 29px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 29px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 29px -17px rgba(0, 0, 0, 0.75);
+}
+
+article.activearticle {
+    -webkit-box-shadow: 2px 18px 106px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 18px 106px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 18px 106px -17px rgba(0, 0, 0, 0.75);
+}

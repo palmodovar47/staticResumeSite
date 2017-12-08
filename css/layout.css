@@ -1,0 +1,136 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#toplayout {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 1fr 100px;
+    min-height: 100em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#center {
+    grid-area: 2/2/4/3;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#wrapper {
+    min-height: 100%;
+}
+
+#innerlayout {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 93px 75px 1fr 125px;
+    min-height: 100%;
+}
+
+#title {
+    grid-area: 1/1/2/4;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#stream {
+    grid-area: 3/2/4/3;
+}
+
+#footer {
+    grid-area: 4/1/5/4;
+    display: grid;
+    grid-template-columns: 50px repeat(3, 1fr) 50px;
+    grid-template-rows: 15px 1fr 15px;
+    min-height: 100%;
+}
+
+#myaddress {
+    grid-area: 2/2/4/3;
+}
+
+#mycontact {
+    grid-area: 2/4/4/5;
+}
+
+#nav {
+    grid-area: 2/1/3/4;
+    display: grid;
+    grid-template-columns: 50px repeat(3, 1fr) 50px;
+    grid-template-rows: 15px 1fr 15px;
+    min-height: 100%;
+}
+
+#edu {
+    grid-area: 2/2/4/3;
+}
+
+#ref {
+    grid-area: 2/4/4/5;
+}
+
+#navtitle {
+    grid-area: 2/3/4/4;
+}
+
+.rtarrow {
+    display: float: right;
+    position: relative;
+    top: 17px;
+    right: 19px;
+    height: 50px;
+}
+
+.lftarrow {
+    display: float: left;
+    position: relative;
+    top: 17px;
+    left: 19px;
+    height: 50px;
+}
+
+#headshot {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.25em;
+}
+
+.fourby4grid {
+    display: grid;
+    grid-template-columns: 15px 1fr 15px 1fr 15px;
+    grid-template-rows: 3em 15px 1fr 20% 15px;
+    min-height: 20em;
+}
+
+.jobbarinactive {
+    grid-area: 1/1/2/6;
+}
+.jobbar {
+    grid-area: 1/1/2/6;
+}
+.companyname{
+    grid-area: 1/2/2/3;
+}
+.jobtitle {
+    grid-area: 1/4/2/5;    
+}
+/* .jobscreenshot {
+    grid-area: 3/2/4/3;    
+} */
+.responsibilities {
+    grid-area: 3/4/4/5;    
+}
+.jobcontact {
+    grid-area: 4/4/5/5;    
+}
+.jobsite {
+    grid-area: 3/2/4/3;
+    border: 1px solid black;
+}
+
+article {
+    position: relative;
+}
